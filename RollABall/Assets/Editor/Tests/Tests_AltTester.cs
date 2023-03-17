@@ -1,5 +1,5 @@
 ﻿using System.Threading;
-using Altom.AltDriver;
+using AltTester.AltDriver;
 using NUnit.Framework;
 using UnityEngine;
 
@@ -25,12 +25,12 @@ public class Tests_AltTester
     {
         altDriver.LoadScene("MiniGame");
         var ball = altDriver.FindObject(By.NAME, "Player");
-        var initialPosition = ball.getWorldPosition();
+        var initialPosition = ball.GetWorldPosition();
         altDriver.MoveMouse(new AltVector2(0, 0), 3f);
         altDriver.MoveMouse(new AltVector2(100, 100), 3f);
         altDriver.MoveMouse(new AltVector2(-200, -200), 3f);
         ball = altDriver.FindObject(By.NAME, "Player");
-        var finalPosition = ball.getWorldPosition();
+        var finalPosition = ball.GetWorldPosition();
         Assert.AreNotEqual(initialPosition.x, finalPosition.x);
     }
 
@@ -40,7 +40,7 @@ public class Tests_AltTester
         altDriver.LoadScene("MiniGame");
         var scrollbar = altDriver.FindObject(By.NAME, "Scrollbar Vertical");
         var scrollbarPosition = scrollbar.GetComponentProperty<float>("UnityEngine.UI.Scrollbar", "value", "UnityEngine.UI");
-        altDriver.MoveMouse(altDriver.FindObject(By.NAME, "Scroll View").getScreenPosition(), 1);
+        altDriver.MoveMouse(altDriver.FindObject(By.NAME, "Scroll View").GetScreenPosition(), 1);
         altDriver.Scroll(new AltVector2(-3000, -3000), 1, true);
         var scrollbarPositionFinal = scrollbar.GetComponentProperty<float>("UnityEngine.UI.Scrollbar", "value", "UnityEngine.UI");
         Assert.AreNotEqual(scrollbarPosition, scrollbarPositionFinal);
@@ -52,11 +52,11 @@ public class Tests_AltTester
         altDriver.LoadScene("MiniGame");
         var objects = altDriver.GetAllElementsLight();
         var scrollbar = altDriver.WaitForObject(By.NAME, "Handle");
-        AltVector2 scrollbarInitialPosition = scrollbar.getScreenPosition(); // use screen coordinates instead of world coordinates        
-        altDriver.MoveMouse(scrollbar.getScreenPosition()); // move mouse in area where scroll reacts
+        AltVector2 scrollbarInitialPosition = scrollbar.GetScreenPosition(); // use screen coordinates instead of world coordinates        
+        altDriver.MoveMouse(scrollbar.GetScreenPosition()); // move mouse in area where scroll reacts
         altDriver.Scroll(-200, 0.1f);
         scrollbar = altDriver.WaitForObject(By.NAME, "Handle");
-        AltVector2 scrollbarFinalPosition = scrollbar.getScreenPosition();
+        AltVector2 scrollbarFinalPosition = scrollbar.GetScreenPosition();
         Assert.AreNotEqual(scrollbarInitialPosition.y, scrollbarFinalPosition.y);//compare y as there is no equality comparer on AltVector2. and we expect only y to change
     }
 
@@ -78,7 +78,7 @@ public class Tests_AltTester
         altDriver.LoadScene("MiniGame");
 
         var scrollbar = altDriver.WaitForObject(By.NAME, "Handle");
-        var scrollbarInitialPosition = scrollbar.getScreenPosition();
+        var scrollbarInitialPosition = scrollbar.GetScreenPosition();
         
         var scrollBarMoved = new AltVector2(scrollbar.x, scrollbar.y - 100);
         altDriver.MoveMouse(scrollBarMoved, 1);
@@ -86,7 +86,7 @@ public class Tests_AltTester
         altDriver.Click(new AltVector2(scrollbar.x, scrollbar.y - 100));
 
         scrollbar = altDriver.WaitForObject(By.NAME, "Handle");
-        var scrollbarFinalPosition = scrollbar.getScreenPosition();
+        var scrollbarFinalPosition = scrollbar.GetScreenPosition();
 
         Assert.AreNotEqual(scrollbarInitialPosition.y, scrollbarFinalPosition.y);
     }
@@ -96,14 +96,14 @@ public class Tests_AltTester
     {
         altDriver.LoadScene("MiniGame");
         var scrollbar = altDriver.FindObject(By.NAME, "Handle");
-        var scrollbarPosition = scrollbar.getScreenPosition();
-        int fingerId = altDriver.BeginTouch(scrollbar.getScreenPosition());
+        var scrollbarPosition = scrollbar.GetScreenPosition();
+        int fingerId = altDriver.BeginTouch(scrollbar.GetScreenPosition());
         altDriver.MoveTouch(fingerId, scrollbarPosition);
         AltVector2 newPosition = new AltVector2(scrollbar.x, scrollbar.y - 500);
         altDriver.MoveTouch(fingerId, newPosition);
         altDriver.EndTouch(fingerId);
         scrollbar = altDriver.FindObject(By.NAME, "Handle");
-        var scrollbarPositionFinal = scrollbar.getScreenPosition();
+        var scrollbarPositionFinal = scrollbar.GetScreenPosition();
 
         Assert.AreNotEqual(scrollbarPosition.y, scrollbarPositionFinal.y);
     }
@@ -114,12 +114,12 @@ public class Tests_AltTester
         altDriver.LoadScene("MiniGame");
 
         var scrollbar = altDriver.FindObject(By.NAME, "Handle");
-        var scrollbarPosition = scrollbar.getScreenPosition();
+        var scrollbarPosition = scrollbar.GetScreenPosition();
         var scrollBarMoved = new AltVector2(scrollbar.x, scrollbar.y - 100);
         altDriver.MoveMouse(scrollBarMoved, 1);
         altDriver.PressKey(AltKeyCode.Mouse0, 0.1f);
         scrollbar = altDriver.FindObject(By.NAME, "Handle");
-        var scrollbarPositionFinal = scrollbar.getScreenPosition();
+        var scrollbarPositionFinal = scrollbar.GetScreenPosition();
         Assert.AreNotEqual(scrollbarPosition.y, scrollbarPositionFinal.y);
     }
 
@@ -149,28 +149,28 @@ public class Tests_AltTester
         altDriver.PressKey(AltKeyCode.S, 1f, 1f);
         var newBall = altDriver.FindObject(By.NAME, "Player");
         Debug.Log("Ball moved backward");
-        Assert.AreNotEqual(ball.getWorldPosition().z, newBall.getWorldPosition().z);
+        Assert.AreNotEqual(ball.GetWorldPosition().z, newBall.GetWorldPosition().z);
         Thread.Sleep(1000);
 
         ball = altDriver.FindObject(By.NAME, "Player");
         altDriver.PressKey(AltKeyCode.W, 1f, 2f);
         newBall = altDriver.FindObject(By.NAME, "Player");
         Debug.Log("Ball moved forward");
-        Assert.AreNotEqual(ball.getWorldPosition().z, newBall.getWorldPosition().z);
+        Assert.AreNotEqual(ball.GetWorldPosition().z, newBall.GetWorldPosition().z);
         Thread.Sleep(1000);
 
         ball = altDriver.FindObject(By.NAME, "Player");
         altDriver.PressKey(AltKeyCode.A, 1f, 2f);
         newBall = altDriver.FindObject(By.NAME, "Player");
         Debug.Log("Ball moved to the left");
-        Assert.AreNotEqual(ball.getWorldPosition().x, newBall.getWorldPosition().x);
+        Assert.AreNotEqual(ball.GetWorldPosition().x, newBall.GetWorldPosition().x);
         Thread.Sleep(1000);
 
         ball = altDriver.FindObject(By.NAME, "Player");
         altDriver.PressKey(AltKeyCode.D, 1f, 2f);
         newBall = altDriver.FindObject(By.NAME, "Player");
         Debug.Log("Ball moved to the right");
-        Assert.AreNotEqual(ball.getWorldPosition().x, newBall.getWorldPosition().x);
+        Assert.AreNotEqual(ball.GetWorldPosition().x, newBall.GetWorldPosition().x);
         Thread.Sleep(2000);
     }
 
@@ -179,9 +179,9 @@ public class Tests_AltTester
     {
         altDriver.LoadScene("MiniGame");
         var ball = altDriver.FindObject(By.NAME, "Player");
-        var initialPosition = ball.getWorldPosition();
+        var initialPosition = ball.GetWorldPosition();
         altDriver.Tilt(new AltVector3(1000, 1000, 1), 3f);
-        Assert.AreNotEqual(initialPosition.x, altDriver.FindObject(By.NAME, "Player").getWorldPosition().x);
+        Assert.AreNotEqual(initialPosition.x, altDriver.FindObject(By.NAME, "Player").GetWorldPosition().x);
     }
 
     [Test]
@@ -194,4 +194,53 @@ public class Tests_AltTester
         var text = altDriver.FindObject(By.PATH,"//ScrollCanvas/SpecialButton/Text (TMP)").GetText();
         Assert.AreEqual("2",text);
     }
+    [Test]
+
+    public void TestCollectItemsRandomly()
+    {
+        altDriver.LoadScene("MiniGame");
+        var ball = altDriver.FindObject(By.NAME, "Player");
+        var initialPosition = ball.GetWorldPosition();
+        var initialText = altDriver.FindObject(By.NAME, "CountText").GetText();
+
+    // const string componentName = "TMPro.TextMeshProUGUI";
+    // const string methodName = "GetTextInfo(System.String) TMPro.TMP_TextInfo";
+    // const string assemblyName = "Unity.TextMeshPro";
+    // const string elementText = "Count: 0";
+    // var altElement = altDriver.FindObject(By.PATH, "/Canvas/CountText");
+    // var data = altElement.CallComponentMethod<string>(componentName, methodName, assemblyName, new object[] { });
+    // Assert.AreEqual(initialText, data);
+
+    const string componentName = "TMPro.TextMeshProUGUI";
+    const string propertyName = "text";
+    const string assemblyName = "Unity.TextMeshPro";
+    var CountText = altDriver.FindObject(By.PATH, "/Canvas/CountText");
+    var propertyValue = CountText.GetComponentProperty<string>(componentName, propertyName, assemblyName);
+    Assert.AreEqual(initialText, propertyValue);
+
+        //altDriver.MoveMouse(new AltVector2(0, 0), 1f);
+        
+       for (int counterKeys = 1; counterKeys<5; counterKeys=counterKeys+1)
+       { 
+    
+        altDriver.PressKey(AltKeyCode.S, 1f, 1f);
+        Thread.Sleep(1000);
+        altDriver.PressKey(AltKeyCode.W, 1f, 1f);
+        Thread.Sleep(1000);
+        altDriver.PressKey(AltKeyCode.A, 1f, 1f);
+        Thread.Sleep(1000);
+        altDriver.PressKey(AltKeyCode.D, 1f, 2f);
+        Thread.Sleep(2000);
+        altDriver.PressKey(AltKeyCode.S, 1f, 1f);
+      
+       }
+
+    
+        var finalText = altDriver.FindObject(By.NAME, "CountText").GetText();
+       // Assert.AreNotEqual(initialText, finalText);
+    
+
+    }
+
+    
 }
