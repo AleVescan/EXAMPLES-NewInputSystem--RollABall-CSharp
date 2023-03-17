@@ -2,6 +2,7 @@
 using AltTester.AltDriver;
 using NUnit.Framework;
 using UnityEngine;
+using System;
 
 public class Tests_AltTester
 {
@@ -242,5 +243,63 @@ public class Tests_AltTester
 
     }
 
+    [Test]
+
+    public void TestCountNumberSameAsPickedupItems()
+    {
+        altDriver.LoadScene("MiniGame");
+        var ball = altDriver.FindObject(By.NAME, "Player");
+        var initialPosition = ball.GetWorldPosition();
+     
+        
+        const string componentName = "UnityEngine.Transform";
+        const string propertyName = "gameObject.activeSelf";
+        const string assemblyName = "UnityEngine.CoreModule";
+        
+
+        for (int counterKeys = 1; counterKeys<5; counterKeys=counterKeys+1)
+       { 
     
+        altDriver.PressKey(AltKeyCode.S, 1f, 1f);
+        Thread.Sleep(1000);
+        altDriver.PressKey(AltKeyCode.W, 1f, 1f);
+        Thread.Sleep(1000);
+        altDriver.PressKey(AltKeyCode.A, 1f, 1f);
+        Thread.Sleep(1000);
+        altDriver.PressKey(AltKeyCode.D, 1f, 2f);
+        Thread.Sleep(2000);
+        altDriver.PressKey(AltKeyCode.S, 1f, 1f);
+      
+       }
+
+  
+
+
+    //get a list of all Pick-up objects 
+
+    Debug.Log("I can see what i need ");
+    
+    var pickUps = altDriver.FindObjectsWhichContain(By.NAME, "PickUp");
+    int countActive = 0;
+
+  // count the items that have activeSelf property set to False
+    foreach (var pickUp in pickUps)
+
+    {   var flagActive=pickUp.GetComponentProperty<bool>(componentName, propertyName, assemblyName);
+        if (flagActive == true)
+        { 
+            Debug.Log("pickUp has active flag and is visible");
+            countActive= countActive + 1;
+            }
+         }
+
+         var countCollected = 13-countActive;
+
+       var CountText = altDriver.FindObject(By.NAME, "CountText").GetText();
+        Assert.AreEqual("Count: "+countCollected, CountText);
+    // pickUps.Count will retrieve 13 because is also counts the PickupParent, which is not a pickUp ball that needs to be counted
+
+   
+
+    }
 }

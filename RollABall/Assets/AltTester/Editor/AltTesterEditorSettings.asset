@@ -18,13 +18,13 @@ MonoBehaviour:
   XcrunPath: /usr/bin/xcrun
   MyTests:
   - _selected: 0
-    _testName: C:/Users/alexandra.vescan/GitProjects/FORK-EXAMPLES-NewInputSystem--RollABall-CSharp/EXAMPLES-NewInputSystem--RollABall-CSharp/RollABall/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+    _testName: C:/GitProjects/FORK-RollABall-CSharp/EXAMPLES-NewInputSystem--RollABall-CSharp/RollABall/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
     _testAssembly: Assembly-CSharp-Editor
     _status: 0
     _isSuite: 1
     _type: NUnit.Framework.Internal.TestAssembly
     _parentName: 
-    _testCaseCount: 12
+    _testCaseCount: 13
     _foldOut: 0
     _testResultMessage: 
     _testStackTrace: 
@@ -37,8 +37,8 @@ MonoBehaviour:
     _status: -1
     _isSuite: 1
     _type: NUnit.Framework.Internal.TestFixture
-    _parentName: C:/Users/alexandra.vescan/GitProjects/FORK-EXAMPLES-NewInputSystem--RollABall-CSharp/EXAMPLES-NewInputSystem--RollABall-CSharp/RollABall/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
-    _testCaseCount: 12
+    _parentName: C:/GitProjects/FORK-RollABall-CSharp/EXAMPLES-NewInputSystem--RollABall-CSharp/RollABall/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+    _testCaseCount: 13
     _foldOut: 0
     _testResultMessage: 
     _testStackTrace: 
@@ -48,185 +48,191 @@ MonoBehaviour:
   - _selected: 0
     _testName: Tests_AltTester.TestBallMovesOnPressKeys
     _testAssembly: Assembly-CSharp-Editor
-    _status: -1
+    _status: 1
     _isSuite: 0
     _type: NUnit.Framework.Internal.TestMethod
     _parentName: Tests_AltTester
     _testCaseCount: 1
     _foldOut: 0
-    _testResultMessage: 'OneTimeSetUp: AltTester.AltDriver.ConnectionTimeoutException
-      : Failed to connect to AltTester on host: 127.0.0.1 port: 13000.'
+    _testResultMessage: 
     _testStackTrace: 
-    _testDuration: 0
+    _testDuration: 12.513286
     path: Assets/Editor/Tests/Tests_AltTester.cs
     _testSelectedCount: 0
   - _selected: 0
     _testName: Tests_AltTester.TestBeginMoveEndTouchMovesScrollbar
     _testAssembly: Assembly-CSharp-Editor
-    _status: -1
+    _status: 1
     _isSuite: 0
     _type: NUnit.Framework.Internal.TestMethod
     _parentName: Tests_AltTester
     _testCaseCount: 1
     _foldOut: 0
-    _testResultMessage: 'OneTimeSetUp: AltTester.AltDriver.ConnectionTimeoutException
-      : Failed to connect to AltTester on host: 127.0.0.1 port: 13000.'
+    _testResultMessage: 
     _testStackTrace: 
-    _testDuration: 0
+    _testDuration: 0.1876753
     path: Assets/Editor/Tests/Tests_AltTester.cs
     _testSelectedCount: 0
   - _selected: 0
     _testName: Tests_AltTester.TestClickNearScrollBarMovesScrollBar
     _testAssembly: Assembly-CSharp-Editor
-    _status: -1
+    _status: 1
     _isSuite: 0
     _type: NUnit.Framework.Internal.TestMethod
     _parentName: Tests_AltTester
     _testCaseCount: 1
     _foldOut: 0
-    _testResultMessage: 'OneTimeSetUp: AltTester.AltDriver.ConnectionTimeoutException
-      : Failed to connect to AltTester on host: 127.0.0.1 port: 13000.'
+    _testResultMessage: 
     _testStackTrace: 
-    _testDuration: 0
+    _testDuration: 1.205479
     path: Assets/Editor/Tests/Tests_AltTester.cs
     _testSelectedCount: 0
   - _selected: 0
     _testName: Tests_AltTester.TestCollectItemsRandomly
     _testAssembly: Assembly-CSharp-Editor
+    _status: 1
+    _isSuite: 0
+    _type: NUnit.Framework.Internal.TestMethod
+    _parentName: Tests_AltTester
+    _testCaseCount: 1
+    _foldOut: 0
+    _testResultMessage: 
+    _testStackTrace: 
+    _testDuration: 45.0296576
+    path: Assets/Editor/Tests/Tests_AltTester.cs
+    _testSelectedCount: 0
+  - _selected: 0
+    _testName: Tests_AltTester.TestCountNumberSameAsPickedupItems
+    _testAssembly: Assembly-CSharp-Editor
     _status: -1
     _isSuite: 0
     _type: NUnit.Framework.Internal.TestMethod
     _parentName: Tests_AltTester
     _testCaseCount: 1
     _foldOut: 0
-    _testResultMessage: 'OneTimeSetUp: AltTester.AltDriver.ConnectionTimeoutException
-      : Failed to connect to AltTester on host: 127.0.0.1 port: 13000.'
-    _testStackTrace: 
-    _testDuration: 0
+    _testResultMessage: "  String lengths are both 8. Strings differ at index 7.\r\n 
+      Expected: \"Count: 0\"\r\n  But was:  \"Count: 6\"\r\n  ------------------^\r\n"
+    _testStackTrace: 'at Tests_AltTester.TestCountNumberSameAsPickedupItems () [0x00170]
+      in C:\GitProjects\FORK-RollABall-CSharp\EXAMPLES-NewInputSystem--RollABall-CSharp\RollABall\Assets\Editor\Tests\Tests_AltTester.cs:297
+
+'
+    _testDuration: 45.1719877
     path: Assets/Editor/Tests/Tests_AltTester.cs
     _testSelectedCount: 0
   - _selected: 0
     _testName: Tests_AltTester.TestDoubleClick
     _testAssembly: Assembly-CSharp-Editor
-    _status: -1
+    _status: 1
     _isSuite: 0
     _type: NUnit.Framework.Internal.TestMethod
     _parentName: Tests_AltTester
     _testCaseCount: 1
     _foldOut: 0
-    _testResultMessage: 'OneTimeSetUp: AltTester.AltDriver.ConnectionTimeoutException
-      : Failed to connect to AltTester on host: 127.0.0.1 port: 13000.'
+    _testResultMessage: 
     _testStackTrace: 
-    _testDuration: 0
+    _testDuration: 1.2615311
     path: Assets/Editor/Tests/Tests_AltTester.cs
     _testSelectedCount: 0
   - _selected: 0
     _testName: Tests_AltTester.TestKeyDownAndKeyUpMouse0MovesScrollBar
     _testAssembly: Assembly-CSharp-Editor
-    _status: -1
+    _status: 1
     _isSuite: 0
     _type: NUnit.Framework.Internal.TestMethod
     _parentName: Tests_AltTester
     _testCaseCount: 1
     _foldOut: 0
-    _testResultMessage: 'OneTimeSetUp: AltTester.AltDriver.ConnectionTimeoutException
-      : Failed to connect to AltTester on host: 127.0.0.1 port: 13000.'
+    _testResultMessage: 
     _testStackTrace: 
-    _testDuration: 0
+    _testDuration: 1.2574929
     path: Assets/Editor/Tests/Tests_AltTester.cs
     _testSelectedCount: 0
   - _selected: 0
     _testName: Tests_AltTester.TestMoveBallWithMoveMouse
     _testAssembly: Assembly-CSharp-Editor
-    _status: -1
+    _status: 1
     _isSuite: 0
     _type: NUnit.Framework.Internal.TestMethod
     _parentName: Tests_AltTester
     _testCaseCount: 1
     _foldOut: 0
-    _testResultMessage: 'OneTimeSetUp: AltTester.AltDriver.ConnectionTimeoutException
-      : Failed to connect to AltTester on host: 127.0.0.1 port: 13000.'
+    _testResultMessage: 
     _testStackTrace: 
-    _testDuration: 0
+    _testDuration: 9.2542378
     path: Assets/Editor/Tests/Tests_AltTester.cs
     _testSelectedCount: 0
   - _selected: 0
     _testName: Tests_AltTester.TestMoveMouseOnScrollbar
     _testAssembly: Assembly-CSharp-Editor
-    _status: -1
+    _status: 1
     _isSuite: 0
     _type: NUnit.Framework.Internal.TestMethod
     _parentName: Tests_AltTester
     _testCaseCount: 1
     _foldOut: 0
-    _testResultMessage: 'OneTimeSetUp: AltTester.AltDriver.ConnectionTimeoutException
-      : Failed to connect to AltTester on host: 127.0.0.1 port: 13000.'
+    _testResultMessage: 
     _testStackTrace: 
-    _testDuration: 0
+    _testDuration: 0.4548028
     path: Assets/Editor/Tests/Tests_AltTester.cs
     _testSelectedCount: 0
   - _selected: 0
     _testName: Tests_AltTester.TestPressKeyNearScrollBarMovesScrollBar
     _testAssembly: Assembly-CSharp-Editor
-    _status: -1
+    _status: 1
     _isSuite: 0
     _type: NUnit.Framework.Internal.TestMethod
     _parentName: Tests_AltTester
     _testCaseCount: 1
     _foldOut: 0
-    _testResultMessage: 'OneTimeSetUp: AltTester.AltDriver.ConnectionTimeoutException
-      : Failed to connect to AltTester on host: 127.0.0.1 port: 13000.'
+    _testResultMessage: 
     _testStackTrace: 
-    _testDuration: 0
+    _testDuration: 1.2799679
     path: Assets/Editor/Tests/Tests_AltTester.cs
     _testSelectedCount: 0
   - _selected: 0
     _testName: Tests_AltTester.TestScrollOnScrollbar
     _testAssembly: Assembly-CSharp-Editor
-    _status: -1
+    _status: 1
     _isSuite: 0
     _type: NUnit.Framework.Internal.TestMethod
     _parentName: Tests_AltTester
     _testCaseCount: 1
     _foldOut: 0
-    _testResultMessage: 'OneTimeSetUp: AltTester.AltDriver.ConnectionTimeoutException
-      : Failed to connect to AltTester on host: 127.0.0.1 port: 13000.'
+    _testResultMessage: 
     _testStackTrace: 
-    _testDuration: 0
+    _testDuration: 2.2525457
     path: Assets/Editor/Tests/Tests_AltTester.cs
     _testSelectedCount: 0
   - _selected: 0
     _testName: Tests_AltTester.TestSwipeOnScrollbar
     _testAssembly: Assembly-CSharp-Editor
-    _status: -1
+    _status: 1
     _isSuite: 0
     _type: NUnit.Framework.Internal.TestMethod
     _parentName: Tests_AltTester
     _testCaseCount: 1
     _foldOut: 0
-    _testResultMessage: 'OneTimeSetUp: AltTester.AltDriver.ConnectionTimeoutException
-      : Failed to connect to AltTester on host: 127.0.0.1 port: 13000.'
+    _testResultMessage: 
     _testStackTrace: 
-    _testDuration: 0
+    _testDuration: 3.1630167
     path: Assets/Editor/Tests/Tests_AltTester.cs
     _testSelectedCount: 0
   - _selected: 0
     _testName: Tests_AltTester.TestTiltBall
     _testAssembly: Assembly-CSharp-Editor
-    _status: -1
+    _status: 1
     _isSuite: 0
     _type: NUnit.Framework.Internal.TestMethod
     _parentName: Tests_AltTester
     _testCaseCount: 1
     _foldOut: 0
-    _testResultMessage: 'OneTimeSetUp: AltTester.AltDriver.ConnectionTimeoutException
-      : Failed to connect to AltTester on host: 127.0.0.1 port: 13000.'
+    _testResultMessage: 
     _testStackTrace: 
-    _testDuration: 0
+    _testDuration: 3.1584626
     path: Assets/Editor/Tests/Tests_AltTester.cs
     _testSelectedCount: 0
   - _selected: 0
-    _testName: C:/Users/alexandra.vescan/GitProjects/FORK-EXAMPLES-NewInputSystem--RollABall-CSharp/EXAMPLES-NewInputSystem--RollABall-CSharp/RollABall/Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll
+    _testName: C:/GitProjects/FORK-RollABall-CSharp/EXAMPLES-NewInputSystem--RollABall-CSharp/RollABall/Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll
     _testAssembly: Unity.InputSystem.IntegrationTests
     _status: 0
     _isSuite: 1
@@ -245,7 +251,7 @@ MonoBehaviour:
     _status: -1
     _isSuite: 1
     _type: NUnit.Framework.Internal.TestFixture
-    _parentName: C:/Users/alexandra.vescan/GitProjects/FORK-EXAMPLES-NewInputSystem--RollABall-CSharp/EXAMPLES-NewInputSystem--RollABall-CSharp/RollABall/Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll
+    _parentName: C:/GitProjects/FORK-RollABall-CSharp/EXAMPLES-NewInputSystem--RollABall-CSharp/RollABall/Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll
     _testCaseCount: 4
     _foldOut: 0
     _testResultMessage: 
@@ -277,16 +283,16 @@ MonoBehaviour:
       (System.Type type) [0x00006] in <4746c126b0b54f3b834845974d1a9190>:0 \r\n 
       at UnityEngine.Resources.FindObjectsOfTypeAll[T] () [0x00001] in <4746c126b0b54f3b834845974d1a9190>:0
       \r\n  at UnityEngine.InputSystem.Editor.EditorPlayerSettingHelpers.GetPropertyOrNull
-      (System.String name) [0x00000] in C:\\Users\\alexandra.vescan\\GitProjects\\FORK-EXAMPLES-NewInputSystem--RollABall-CSharp\\EXAMPLES-NewInputSystem--RollABall-CSharp\\RollABall\\Library\\PackageCache\\com.unity.inputsystem@1.4.1\\InputSystem\\Editor\\Settings\\EditorPlayerSettingHelpers.cs:157
+      (System.String name) [0x00000] in C:\\GitProjects\\FORK-RollABall-CSharp\\EXAMPLES-NewInputSystem--RollABall-CSharp\\RollABall\\Library\\PackageCache\\com.unity.inputsystem@1.4.1\\InputSystem\\Editor\\Settings\\EditorPlayerSettingHelpers.cs:157
       \r\n  at UnityEngine.InputSystem.Editor.EditorPlayerSettingHelpers.get_oldSystemBackendsEnabled
-      () [0x00000] in C:\\Users\\alexandra.vescan\\GitProjects\\FORK-EXAMPLES-NewInputSystem--RollABall-CSharp\\EXAMPLES-NewInputSystem--RollABall-CSharp\\RollABall\\Library\\PackageCache\\com.unity.inputsystem@1.4.1\\InputSystem\\Editor\\Settings\\EditorPlayerSettingHelpers.cs:65
+      () [0x00000] in C:\\GitProjects\\FORK-RollABall-CSharp\\EXAMPLES-NewInputSystem--RollABall-CSharp\\RollABall\\Library\\PackageCache\\com.unity.inputsystem@1.4.1\\InputSystem\\Editor\\Settings\\EditorPlayerSettingHelpers.cs:65
       \r\n  at IntegrationTests.Integration_CanChangeInputBackendPlayerSettingInEditor
-      () [0x00000] in C:\\Users\\alexandra.vescan\\GitProjects\\FORK-EXAMPLES-NewInputSystem--RollABall-CSharp\\EXAMPLES-NewInputSystem--RollABall-CSharp\\RollABall\\Library\\PackageCache\\com.unity.inputsystem@1.4.1\\Tests\\IntegrationTests\\IntegrationTests.cs:97
+      () [0x00000] in C:\\GitProjects\\FORK-RollABall-CSharp\\EXAMPLES-NewInputSystem--RollABall-CSharp\\RollABall\\Library\\PackageCache\\com.unity.inputsystem@1.4.1\\Tests\\IntegrationTests\\IntegrationTests.cs:97
       \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
       at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
       invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo
       culture) [0x0006a] in <75633565436c42f0a6426b33f0132ade>:0 "
-    _testDuration: 0.0015179
+    _testDuration: 0.0016854
     path: Packages/com.unity.inputsystem/Tests/IntegrationTests
     _testSelectedCount: 0
   - _selected: 0
@@ -309,25 +315,25 @@ MonoBehaviour:
       code to the Awake or Start function.'
     _testStackTrace: "  at (wrapper managed-to-native) UnityEngineInternal.Input.NativeInputSystem.AllocateDeviceId()\r\n 
       at UnityEngine.InputSystem.LowLevel.NativeInputRuntime.AllocateDeviceId ()
-      [0x00000] in C:\\Users\\alexandra.vescan\\GitProjects\\FORK-EXAMPLES-NewInputSystem--RollABall-CSharp\\EXAMPLES-NewInputSystem--RollABall-CSharp\\RollABall\\Library\\PackageCache\\com.unity.inputsystem@1.4.1\\InputSystem\\NativeInputRuntime.cs:27
+      [0x00000] in C:\\GitProjects\\FORK-RollABall-CSharp\\EXAMPLES-NewInputSystem--RollABall-CSharp\\RollABall\\Library\\PackageCache\\com.unity.inputsystem@1.4.1\\InputSystem\\NativeInputRuntime.cs:27
       \r\n  at UnityEngine.InputSystem.InputManager.AssignUniqueDeviceId (UnityEngine.InputSystem.InputDevice
-      device) [0x0003f] in C:\\Users\\alexandra.vescan\\GitProjects\\FORK-EXAMPLES-NewInputSystem--RollABall-CSharp\\EXAMPLES-NewInputSystem--RollABall-CSharp\\RollABall\\Library\\PackageCache\\com.unity.inputsystem@1.4.1\\InputSystem\\InputManager.cs:2040
+      device) [0x0003f] in C:\\GitProjects\\FORK-RollABall-CSharp\\EXAMPLES-NewInputSystem--RollABall-CSharp\\RollABall\\Library\\PackageCache\\com.unity.inputsystem@1.4.1\\InputSystem\\InputManager.cs:2040
       \r\n  at UnityEngine.InputSystem.InputManager.AddDevice (UnityEngine.InputSystem.InputDevice
-      device) [0x0003c] in C:\\Users\\alexandra.vescan\\GitProjects\\FORK-EXAMPLES-NewInputSystem--RollABall-CSharp\\EXAMPLES-NewInputSystem--RollABall-CSharp\\RollABall\\Library\\PackageCache\\com.unity.inputsystem@1.4.1\\InputSystem\\InputManager.cs:1093
+      device) [0x0003c] in C:\\GitProjects\\FORK-RollABall-CSharp\\EXAMPLES-NewInputSystem--RollABall-CSharp\\RollABall\\Library\\PackageCache\\com.unity.inputsystem@1.4.1\\InputSystem\\InputManager.cs:1093
       \r\n  at UnityEngine.InputSystem.InputManager.AddDevice (System.String layout,
       System.String name, UnityEngine.InputSystem.Utilities.InternedString variants)
-      [0x0003e] in C:\\Users\\alexandra.vescan\\GitProjects\\FORK-EXAMPLES-NewInputSystem--RollABall-CSharp\\EXAMPLES-NewInputSystem--RollABall-CSharp\\RollABall\\Library\\PackageCache\\com.unity.inputsystem@1.4.1\\InputSystem\\InputManager.cs:1050
+      [0x0003e] in C:\\GitProjects\\FORK-RollABall-CSharp\\EXAMPLES-NewInputSystem--RollABall-CSharp\\RollABall\\Library\\PackageCache\\com.unity.inputsystem@1.4.1\\InputSystem\\InputManager.cs:1050
       \r\n  at UnityEngine.InputSystem.InputManager.AddDevice (System.Type type,
-      System.String name) [0x0002c] in C:\\Users\\alexandra.vescan\\GitProjects\\FORK-EXAMPLES-NewInputSystem--RollABall-CSharp\\EXAMPLES-NewInputSystem--RollABall-CSharp\\RollABall\\Library\\PackageCache\\com.unity.inputsystem@1.4.1\\InputSystem\\InputManager.cs:1035
+      System.String name) [0x0002c] in C:\\GitProjects\\FORK-RollABall-CSharp\\EXAMPLES-NewInputSystem--RollABall-CSharp\\RollABall\\Library\\PackageCache\\com.unity.inputsystem@1.4.1\\InputSystem\\InputManager.cs:1035
       \r\n  at UnityEngine.InputSystem.InputSystem.AddDevice[TDevice] (System.String
-      name) [0x00000] in C:\\Users\\alexandra.vescan\\GitProjects\\FORK-EXAMPLES-NewInputSystem--RollABall-CSharp\\EXAMPLES-NewInputSystem--RollABall-CSharp\\RollABall\\Library\\PackageCache\\com.unity.inputsystem@1.4.1\\InputSystem\\InputSystem.cs:1446
+      name) [0x00000] in C:\\GitProjects\\FORK-RollABall-CSharp\\EXAMPLES-NewInputSystem--RollABall-CSharp\\RollABall\\Library\\PackageCache\\com.unity.inputsystem@1.4.1\\InputSystem\\InputSystem.cs:1446
       \r\n  at IntegrationTests.Integration_CanSendAndReceiveEvents () [0x00000]
-      in C:\\Users\\alexandra.vescan\\GitProjects\\FORK-EXAMPLES-NewInputSystem--RollABall-CSharp\\EXAMPLES-NewInputSystem--RollABall-CSharp\\RollABall\\Library\\PackageCache\\com.unity.inputsystem@1.4.1\\Tests\\IntegrationTests\\IntegrationTests.cs:75
+      in C:\\GitProjects\\FORK-RollABall-CSharp\\EXAMPLES-NewInputSystem--RollABall-CSharp\\RollABall\\Library\\PackageCache\\com.unity.inputsystem@1.4.1\\Tests\\IntegrationTests\\IntegrationTests.cs:75
       \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
       at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
       invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo
       culture) [0x0006a] in <75633565436c42f0a6426b33f0132ade>:0 "
-    _testDuration: 0.0010132
+    _testDuration: 0.0019002
     path: Packages/com.unity.inputsystem/Tests/IntegrationTests
     _testSelectedCount: 0
   - _selected: 0
@@ -341,7 +347,7 @@ MonoBehaviour:
     _foldOut: 0
     _testResultMessage: Unstable due to 1252825
     _testStackTrace: 
-    _testDuration: 0.000176
+    _testDuration: 0.0004557
     path: Packages/com.unity.inputsystem/Tests/IntegrationTests
     _testSelectedCount: 0
   - _selected: 0
@@ -355,11 +361,11 @@ MonoBehaviour:
     _foldOut: 0
     _testResultMessage: Unstable due to 1252825
     _testStackTrace: 
-    _testDuration: 0.0000042
+    _testDuration: 0.0000101
     path: Packages/com.unity.inputsystem/Tests/IntegrationTests
     _testSelectedCount: 0
   - _selected: 1
-    _testName: C:/Users/alexandra.vescan/GitProjects/FORK-EXAMPLES-NewInputSystem--RollABall-CSharp/EXAMPLES-NewInputSystem--RollABall-CSharp/RollABall/Library/ScriptAssemblies/AltTesterEditor.dll
+    _testName: C:/GitProjects/FORK-RollABall-CSharp/EXAMPLES-NewInputSystem--RollABall-CSharp/RollABall/Library/ScriptAssemblies/AltTesterEditor.dll
     _testAssembly: AltTesterEditor
     _status: 0
     _isSuite: 1
@@ -373,7 +379,7 @@ MonoBehaviour:
     path: 
     _testSelectedCount: 0
   - _selected: 1
-    _testName: C:/Users/alexandra.vescan/GitProjects/FORK-EXAMPLES-NewInputSystem--RollABall-CSharp/EXAMPLES-NewInputSystem--RollABall-CSharp/RollABall/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+    _testName: C:/GitProjects/FORK-RollABall-CSharp/EXAMPLES-NewInputSystem--RollABall-CSharp/RollABall/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
     _testAssembly: Unity.VisualStudio.Editor
     _status: 0
     _isSuite: 1
@@ -387,7 +393,7 @@ MonoBehaviour:
     path: 
     _testSelectedCount: 0
   - _selected: 1
-    _testName: C:/Users/alexandra.vescan/GitProjects/FORK-EXAMPLES-NewInputSystem--RollABall-CSharp/EXAMPLES-NewInputSystem--RollABall-CSharp/RollABall/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+    _testName: C:/GitProjects/FORK-RollABall-CSharp/EXAMPLES-NewInputSystem--RollABall-CSharp/RollABall/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
     _testAssembly: UnityEngine.TestRunner
     _status: 0
     _isSuite: 1
@@ -401,7 +407,7 @@ MonoBehaviour:
     path: 
     _testSelectedCount: 0
   - _selected: 1
-    _testName: C:/Users/alexandra.vescan/GitProjects/FORK-EXAMPLES-NewInputSystem--RollABall-CSharp/EXAMPLES-NewInputSystem--RollABall-CSharp/RollABall/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+    _testName: C:/GitProjects/FORK-RollABall-CSharp/EXAMPLES-NewInputSystem--RollABall-CSharp/RollABall/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
     _testAssembly: UnityEditor.TestRunner
     _status: 0
     _isSuite: 1
@@ -415,7 +421,7 @@ MonoBehaviour:
     path: 
     _testSelectedCount: 0
   - _selected: 0
-    _testName: C:/Users/alexandra.vescan/GitProjects/FORK-EXAMPLES-NewInputSystem--RollABall-CSharp/EXAMPLES-NewInputSystem--RollABall-CSharp/RollABall/Library/ScriptAssemblies/AltTester.dll
+    _testName: C:/GitProjects/FORK-RollABall-CSharp/EXAMPLES-NewInputSystem--RollABall-CSharp/RollABall/Library/ScriptAssemblies/AltTester.dll
     _testAssembly: AltTester
     _status: 1
     _isSuite: 1
@@ -434,7 +440,7 @@ MonoBehaviour:
     _status: 1
     _isSuite: 1
     _type: NUnit.Framework.Internal.TestFixture
-    _parentName: C:/Users/alexandra.vescan/GitProjects/FORK-EXAMPLES-NewInputSystem--RollABall-CSharp/EXAMPLES-NewInputSystem--RollABall-CSharp/RollABall/Library/ScriptAssemblies/AltTester.dll
+    _parentName: C:/GitProjects/FORK-RollABall-CSharp/EXAMPLES-NewInputSystem--RollABall-CSharp/RollABall/Library/ScriptAssemblies/AltTester.dll
     _testCaseCount: 1
     _foldOut: 0
     _testResultMessage: 
@@ -453,11 +459,11 @@ MonoBehaviour:
     _foldOut: 0
     _testResultMessage: 
     _testStackTrace: 
-    _testDuration: 0.0000738
+    _testDuration: 0.0000234
     path: Assets/AltTester/Editor/DefaultTestExample.txt
     _testSelectedCount: 0
   - _selected: 1
-    _testName: C:/Users/alexandra.vescan/GitProjects/FORK-EXAMPLES-NewInputSystem--RollABall-CSharp/EXAMPLES-NewInputSystem--RollABall-CSharp/RollABall/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+    _testName: C:/GitProjects/FORK-RollABall-CSharp/EXAMPLES-NewInputSystem--RollABall-CSharp/RollABall/Library/ScriptAssemblies/Unity.Rider.Editor.dll
     _testAssembly: Unity.Rider.Editor
     _status: 0
     _isSuite: 1
@@ -471,7 +477,7 @@ MonoBehaviour:
     path: 
     _testSelectedCount: 0
   - _selected: 1
-    _testName: C:/Users/alexandra.vescan/GitProjects/FORK-EXAMPLES-NewInputSystem--RollABall-CSharp/EXAMPLES-NewInputSystem--RollABall-CSharp/RollABall/Library/ScriptAssemblies/Unity.InputSystem.TestFramework.dll
+    _testName: C:/GitProjects/FORK-RollABall-CSharp/EXAMPLES-NewInputSystem--RollABall-CSharp/RollABall/Library/ScriptAssemblies/Unity.InputSystem.TestFramework.dll
     _testAssembly: Unity.InputSystem.TestFramework
     _status: 0
     _isSuite: 1
