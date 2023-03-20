@@ -34,7 +34,7 @@ MonoBehaviour:
   - _selected: 1
     _testName: Tests_AltTester
     _testAssembly: Assembly-CSharp-Editor
-    _status: 0
+    _status: 1
     _isSuite: 1
     _type: NUnit.Framework.Internal.TestFixture
     _parentName: C:/GitProjects/FORK-RollABall-CSharp/EXAMPLES-NewInputSystem--RollABall-CSharp/RollABall/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
@@ -56,7 +56,7 @@ MonoBehaviour:
     _foldOut: 0
     _testResultMessage: 
     _testStackTrace: 
-    _testDuration: 12.4999731
+    _testDuration: 12.4209011
     path: Assets/Editor/Tests/Tests_AltTester.cs
     _testSelectedCount: 0
   - _selected: 1
@@ -70,7 +70,7 @@ MonoBehaviour:
     _foldOut: 0
     _testResultMessage: 
     _testStackTrace: 
-    _testDuration: 0.2174095
+    _testDuration: 0.2194777
     path: Assets/Editor/Tests/Tests_AltTester.cs
     _testSelectedCount: 0
   - _selected: 1
@@ -84,7 +84,7 @@ MonoBehaviour:
     _foldOut: 0
     _testResultMessage: 
     _testStackTrace: 
-    _testDuration: 1.1879524
+    _testDuration: 1.2037355
     path: Assets/Editor/Tests/Tests_AltTester.cs
     _testSelectedCount: 0
   - _selected: 1
@@ -98,7 +98,7 @@ MonoBehaviour:
     _foldOut: 0
     _testResultMessage: 
     _testStackTrace: 
-    _testDuration: 271.7739455
+    _testDuration: 271.9784691
     path: Assets/Editor/Tests/Tests_AltTester.cs
     _testSelectedCount: 0
   - _selected: 1
@@ -112,7 +112,7 @@ MonoBehaviour:
     _foldOut: 0
     _testResultMessage: 
     _testStackTrace: 
-    _testDuration: 45.212868
+    _testDuration: 45.3680006
     path: Assets/Editor/Tests/Tests_AltTester.cs
     _testSelectedCount: 0
   - _selected: 1
@@ -126,7 +126,7 @@ MonoBehaviour:
     _foldOut: 0
     _testResultMessage: 
     _testStackTrace: 
-    _testDuration: 1.2188467
+    _testDuration: 1.2226895
     path: Assets/Editor/Tests/Tests_AltTester.cs
     _testSelectedCount: 0
   - _selected: 1
@@ -140,7 +140,7 @@ MonoBehaviour:
     _foldOut: 0
     _testResultMessage: 
     _testStackTrace: 
-    _testDuration: 1.2449932
+    _testDuration: 1.2937157
     path: Assets/Editor/Tests/Tests_AltTester.cs
     _testSelectedCount: 0
   - _selected: 1
@@ -154,7 +154,7 @@ MonoBehaviour:
     _foldOut: 0
     _testResultMessage: 
     _testStackTrace: 
-    _testDuration: 9.2654386
+    _testDuration: 9.2598854
     path: Assets/Editor/Tests/Tests_AltTester.cs
     _testSelectedCount: 0
   - _selected: 1
@@ -168,7 +168,7 @@ MonoBehaviour:
     _foldOut: 0
     _testResultMessage: 
     _testStackTrace: 
-    _testDuration: 0.4500706
+    _testDuration: 0.4228507
     path: Assets/Editor/Tests/Tests_AltTester.cs
     _testSelectedCount: 0
   - _selected: 1
@@ -182,7 +182,7 @@ MonoBehaviour:
     _foldOut: 0
     _testResultMessage: 
     _testStackTrace: 
-    _testDuration: 1.2916049
+    _testDuration: 1.2973499
     path: Assets/Editor/Tests/Tests_AltTester.cs
     _testSelectedCount: 0
   - _selected: 1
@@ -196,7 +196,7 @@ MonoBehaviour:
     _foldOut: 0
     _testResultMessage: 
     _testStackTrace: 
-    _testDuration: 11.3809116
+    _testDuration: 11.4472947
     path: Assets/Editor/Tests/Tests_AltTester.cs
     _testSelectedCount: 0
   - _selected: 1
@@ -210,7 +210,7 @@ MonoBehaviour:
     _foldOut: 0
     _testResultMessage: 
     _testStackTrace: 
-    _testDuration: 2.2726684
+    _testDuration: 2.2331888
     path: Assets/Editor/Tests/Tests_AltTester.cs
     _testSelectedCount: 0
   - _selected: 1
@@ -224,7 +224,7 @@ MonoBehaviour:
     _foldOut: 0
     _testResultMessage: 
     _testStackTrace: 
-    _testDuration: 3.1987693
+    _testDuration: 3.1825629
     path: Assets/Editor/Tests/Tests_AltTester.cs
     _testSelectedCount: 0
   - _selected: 1
@@ -238,7 +238,7 @@ MonoBehaviour:
     _foldOut: 0
     _testResultMessage: 
     _testStackTrace: 
-    _testDuration: 3.1529184
+    _testDuration: 3.1463844
     path: Assets/Editor/Tests/Tests_AltTester.cs
     _testSelectedCount: 0
   - _selected: 0

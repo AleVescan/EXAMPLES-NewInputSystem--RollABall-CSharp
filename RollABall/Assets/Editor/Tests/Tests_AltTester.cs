@@ -325,7 +325,9 @@ public class Tests_AltTester
 
        
         var winText = altDriver.FindObject(By.NAME,"WinText");
-         Assert.NotNull(winText);
+        var CountText = altDriver.FindObject(By.NAME, "CountText").GetText();
+        Assert.AreEqual(CountText, "Count: 12");
+        Assert.NotNull(winText);
 
     }
 }
