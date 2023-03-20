@@ -70,7 +70,7 @@ public class Tests_AltTester
         altDriver.Swipe(new AltVector2(scrollbar.x, scrollbar.y), new AltVector2(scrollbar.x, scrollbar.y - 200), 3);
         scrollbar = altDriver.WaitForObject(By.NAME, "Handle");
         AltVector2 scrollbarFinalPosition = new AltVector2(scrollbar.worldX, scrollbar.worldY);
-        Assert.AreNotEqual(scrollbarInitialPosition.y,scrollbarFinalPosition.y);
+        Assert.AreNotEqual(scrollbarInitialPosition.y, scrollbarFinalPosition.y);
     }
 
     [Test]
@@ -80,7 +80,7 @@ public class Tests_AltTester
 
         var scrollbar = altDriver.WaitForObject(By.NAME, "Handle");
         var scrollbarInitialPosition = scrollbar.GetScreenPosition();
-        
+
         var scrollBarMoved = new AltVector2(scrollbar.x, scrollbar.y - 100);
         altDriver.MoveMouse(scrollBarMoved, 1);
 
@@ -192,54 +192,47 @@ public class Tests_AltTester
         var button = altDriver.FindObject(By.NAME, "SpecialButton").Click();
         Thread.Sleep(1000);
         button.Click();
-        var text = altDriver.FindObject(By.PATH,"//ScrollCanvas/SpecialButton/Text (TMP)").GetText();
-        Assert.AreEqual("2",text);
+        var text = altDriver.FindObject(By.PATH, "//ScrollCanvas/SpecialButton/Text (TMP)").GetText();
+        Assert.AreEqual("2", text);
     }
     [Test]
 
-    public void TestCollectItemsRandomly()
+    public void TestSameValueFourCountTextinDifferentWays()
     {
         altDriver.LoadScene("MiniGame");
         var ball = altDriver.FindObject(By.NAME, "Player");
         var initialPosition = ball.GetWorldPosition();
         var initialText = altDriver.FindObject(By.NAME, "CountText").GetText();
 
-    // const string componentName = "TMPro.TextMeshProUGUI";
-    // const string methodName = "GetTextInfo(System.String) TMPro.TMP_TextInfo";
-    // const string assemblyName = "Unity.TextMeshPro";
-    // const string elementText = "Count: 0";
-    // var altElement = altDriver.FindObject(By.PATH, "/Canvas/CountText");
-    // var data = altElement.CallComponentMethod<string>(componentName, methodName, assemblyName, new object[] { });
-    // Assert.AreEqual(initialText, data);
 
-    const string componentName = "TMPro.TextMeshProUGUI";
-    const string propertyName = "text";
-    const string assemblyName = "Unity.TextMeshPro";
-    var CountText = altDriver.FindObject(By.PATH, "/Canvas/CountText");
-    var propertyValue = CountText.GetComponentProperty<string>(componentName, propertyName, assemblyName);
-    Assert.AreEqual(initialText, propertyValue);
+        const string componentName = "TMPro.TextMeshProUGUI";
+        const string propertyName = "text";
+        const string assemblyName = "Unity.TextMeshPro";
+        var CountText = altDriver.FindObject(By.PATH, "/Canvas/CountText");
+        var propertyValue = CountText.GetComponentProperty<string>(componentName, propertyName, assemblyName);
+        Assert.AreEqual(initialText, propertyValue);
 
         //altDriver.MoveMouse(new AltVector2(0, 0), 1f);
-        
-       for (int counterKeys = 1; counterKeys<5; counterKeys=counterKeys+1)
-       { 
-    
-        altDriver.PressKey(AltKeyCode.S, 1f, 1f);
-        Thread.Sleep(1000);
-        altDriver.PressKey(AltKeyCode.W, 1f, 1f);
-        Thread.Sleep(1000);
-        altDriver.PressKey(AltKeyCode.A, 1f, 1f);
-        Thread.Sleep(1000);
-        altDriver.PressKey(AltKeyCode.D, 1f, 2f);
-        Thread.Sleep(2000);
-        altDriver.PressKey(AltKeyCode.S, 1f, 1f);
-      
-       }
 
-    
+        for (int counterKeys = 1; counterKeys < 2; counterKeys = counterKeys + 1)
+        {
+
+            altDriver.PressKey(AltKeyCode.S, 1f, 1f);
+            Thread.Sleep(1000);
+            altDriver.PressKey(AltKeyCode.W, 1f, 1f);
+            Thread.Sleep(1000);
+            altDriver.PressKey(AltKeyCode.A, 1f, 1f);
+            Thread.Sleep(1000);
+            altDriver.PressKey(AltKeyCode.D, 1f, 2f);
+            Thread.Sleep(2000);
+            altDriver.PressKey(AltKeyCode.S, 1f, 1f);
+
+        }
+
+
         var finalText = altDriver.FindObject(By.NAME, "CountText").GetText();
-       // Assert.AreNotEqual(initialText, finalText);
-    
+        Assert.AreNotEqual(initialText, finalText);
+
 
     }
 
@@ -250,56 +243,90 @@ public class Tests_AltTester
         altDriver.LoadScene("MiniGame");
         var ball = altDriver.FindObject(By.NAME, "Player");
         var initialPosition = ball.GetWorldPosition();
-     
-        
+
+
         const string componentName = "UnityEngine.Transform";
         const string propertyName = "gameObject.activeSelf";
         const string assemblyName = "UnityEngine.CoreModule";
-        
-
-        for (int counterKeys = 1; counterKeys<5; counterKeys=counterKeys+1)
-       { 
-    
-        altDriver.PressKey(AltKeyCode.S, 1f, 1f);
-        Thread.Sleep(1000);
-        altDriver.PressKey(AltKeyCode.W, 1f, 1f);
-        Thread.Sleep(1000);
-        altDriver.PressKey(AltKeyCode.A, 1f, 1f);
-        Thread.Sleep(1000);
-        altDriver.PressKey(AltKeyCode.D, 1f, 2f);
-        Thread.Sleep(2000);
-        altDriver.PressKey(AltKeyCode.S, 1f, 1f);
-      
-       }
-
-  
 
 
-    //get a list of all Pick-up objects 
+        for (int counterKeys = 1; counterKeys < 5; counterKeys = counterKeys + 1)
+        {
 
-    Debug.Log("I can see what i need ");
-    
-    var pickUps = altDriver.FindObjectsWhichContain(By.NAME, "PickUp");
-    int countActive = 0;
+            altDriver.PressKey(AltKeyCode.S, 1f, 1f);
+            Thread.Sleep(1000);
+            altDriver.PressKey(AltKeyCode.W, 1f, 1f);
+            Thread.Sleep(1000);
+            altDriver.PressKey(AltKeyCode.A, 1f, 1f);
+            Thread.Sleep(1000);
+            altDriver.PressKey(AltKeyCode.D, 1f, 2f);
+            Thread.Sleep(2000);
+            altDriver.PressKey(AltKeyCode.S, 1f, 1f);
 
-  // count the items that have activeSelf property set to False
-    foreach (var pickUp in pickUps)
+        }
 
-    {   var flagActive=pickUp.GetComponentProperty<bool>(componentName, propertyName, assemblyName);
-        if (flagActive == true)
-        { 
-            Debug.Log("pickUp has active flag and is visible");
-            countActive= countActive + 1;
+       // Thread.Sleep(2000);
+
+        //get a list of all Pick-up objects 
+
+        Debug.Log("I can see what i need ");
+
+        var pickUps = altDriver.FindObjectsWhichContain(By.NAME, "PickUp", enabled:false);
+        int countActive = 0;
+        Assert.AreEqual(13, pickUps.Count);
+
+        // count the items that have activeSelf property set to True
+        foreach (var pickUp in pickUps)
+
+        {
+            Debug.Log("I was seen as a pickup");
+
+            var flagActive = pickUp.GetComponentProperty<bool>(componentName, propertyName, assemblyName);
+            if (flagActive == true)
+            {
+                Debug.Log("pickUp has active flag and is visible");
+                countActive= countActive+1; 
             }
-         }
+        }
 
-         var countCollected = 13-countActive;
+            Debug.Log("Count Active is"+ countActive);
 
-       var CountText = altDriver.FindObject(By.NAME, "CountText").GetText();
-        Assert.AreEqual("Count: "+countCollected, CountText);
-    // pickUps.Count will retrieve 13 because is also counts the PickupParent, which is not a pickUp ball that needs to be counted
+            var countCollected = 13 - countActive;
 
-   
+            var CountText = altDriver.FindObject(By.NAME, "CountText").GetText();
+            Assert.AreEqual("Count: " + countCollected, CountText);
+            // pickUps.Count will retrieve 13 because is also counts the PickupParent, which is not a pickUp ball that needs to be counted
+
+
+
+        
+    }
+
+    [Test]
+
+    public void TestCollectAllItems()
+    {
+        altDriver.LoadScene("MiniGame");
+        var ball = altDriver.FindObject(By.NAME, "Player");
+        var initialPosition = ball.GetWorldPosition();
+
+         for (int i = 1; i <30; i = i + 1)
+        {
+
+            altDriver.PressKey(AltKeyCode.D, 1f, 0.9f);
+            Thread.Sleep(75*i);
+            altDriver.PressKey(AltKeyCode.S, 1f, 0.9f);
+            Thread.Sleep(75*i);
+            altDriver.PressKey(AltKeyCode.A, 1f, 0.9f);
+            Thread.Sleep(75*i);
+            altDriver.PressKey(AltKeyCode.W, 1f, 2f);
+            Thread.Sleep(75*i);
+        }
+
+       
+        var winText = altDriver.FindObject(By.NAME,"WinText");
+         Assert.NotNull(winText);
 
     }
 }
+
