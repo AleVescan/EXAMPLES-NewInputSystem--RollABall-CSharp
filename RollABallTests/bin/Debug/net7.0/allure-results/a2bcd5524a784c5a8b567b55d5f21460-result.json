@@ -1,0 +1,64 @@
+{
+  "uuid": "4f355fb4-1083-484f-a09e-3a7946d905a5-tr-0-1006",
+  "historyId": "RollABallTests.Tests_AltTester.TestBeginMoveEndTouchMovesScrollbar",
+  "fullName": "RollABallTests.Tests_AltTester.TestBeginMoveEndTouchMovesScrollbar",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ALTOM-PC68"
+    },
+    {
+      "name": "package",
+      "value": "RollABallTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestBeginMoveEndTouchMovesScrollbar"
+    },
+    {
+      "name": "testClass",
+      "value": "Tests_AltTester"
+    }
+  ],
+  "links": [],
+  "name": "TestBeginMoveEndTouchMovesScrollbar",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestBeginMoveEndTouchMovesScrollbar"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "TestBeginMoveEndTouchMovesScrollbar",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "5b4e985bfcbc49d4a6389fb71f1953de-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1681118770596,
+      "stop": 1681118770781
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1681118770596,
+  "stop": 1681118770781
+}

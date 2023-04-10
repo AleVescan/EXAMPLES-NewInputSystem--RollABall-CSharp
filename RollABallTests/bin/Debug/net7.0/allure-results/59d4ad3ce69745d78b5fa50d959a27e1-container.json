@@ -1,0 +1,46 @@
+{
+  "uuid": "29a8e5ff-e51e-4f82-a61c-4bcf2a613dfd-tc-0-1000",
+  "name": "RollABallTests.Tests_AltTester.TestCollectAllItems",
+  "children": [
+    "0e27b8a7-1bf2-4427-87ee-5513ac9fd1b1-tr-0-1014"
+  ],
+  "befores": [
+    {
+      "name": "SetUp",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1681119043959,
+      "stop": 1681119043959
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "none",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "It's not possible to get status of OneTimeTearDown",
+        "trace": "See Allure.NUnit wiki"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1681119043959,
+      "stop": 1681119043959
+    }
+  ],
+  "links": [],
+  "start": 1681118771993,
+  "stop": 1681119043964
+}

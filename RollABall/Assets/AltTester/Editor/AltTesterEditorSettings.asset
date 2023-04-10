@@ -17,7 +17,7 @@ MonoBehaviour:
   IProxyPath: /usr/local/bin/iproxy
   XcrunPath: /usr/bin/xcrun
   MyTests:
-  - _selected: 1
+  - _selected: 0
     _testName: C:/GitProjects/FORK-RollABall-CSharp/EXAMPLES-NewInputSystem--RollABall-CSharp/RollABall/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
     _testAssembly: Assembly-CSharp-Editor
     _status: 0
@@ -30,11 +30,11 @@ MonoBehaviour:
     _testStackTrace: 
     _testDuration: 0
     path: 
-    _testSelectedCount: 14
-  - _selected: 1
+    _testSelectedCount: 0
+  - _selected: 0
     _testName: Tests_AltTester
     _testAssembly: Assembly-CSharp-Editor
-    _status: 1
+    _status: 0
     _isSuite: 1
     _type: NUnit.Framework.Internal.TestFixture
     _parentName: C:/GitProjects/FORK-RollABall-CSharp/EXAMPLES-NewInputSystem--RollABall-CSharp/RollABall/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
@@ -44,11 +44,11 @@ MonoBehaviour:
     _testStackTrace: 
     _testDuration: 0
     path: 
-    _testSelectedCount: 14
-  - _selected: 1
+    _testSelectedCount: 0
+  - _selected: 0
     _testName: Tests_AltTester.TestBallMovesOnPressKeys
     _testAssembly: Assembly-CSharp-Editor
-    _status: 1
+    _status: 0
     _isSuite: 0
     _type: NUnit.Framework.Internal.TestMethod
     _parentName: Tests_AltTester
@@ -56,13 +56,13 @@ MonoBehaviour:
     _foldOut: 0
     _testResultMessage: 
     _testStackTrace: 
-    _testDuration: 12.4209011
+    _testDuration: 0
     path: Assets/Editor/Tests/Tests_AltTester.cs
     _testSelectedCount: 0
-  - _selected: 1
+  - _selected: 0
     _testName: Tests_AltTester.TestBeginMoveEndTouchMovesScrollbar
     _testAssembly: Assembly-CSharp-Editor
-    _status: 1
+    _status: 0
     _isSuite: 0
     _type: NUnit.Framework.Internal.TestMethod
     _parentName: Tests_AltTester
@@ -70,13 +70,13 @@ MonoBehaviour:
     _foldOut: 0
     _testResultMessage: 
     _testStackTrace: 
-    _testDuration: 0.2194777
+    _testDuration: 0
     path: Assets/Editor/Tests/Tests_AltTester.cs
     _testSelectedCount: 0
-  - _selected: 1
+  - _selected: 0
     _testName: Tests_AltTester.TestClickNearScrollBarMovesScrollBar
     _testAssembly: Assembly-CSharp-Editor
-    _status: 1
+    _status: 0
     _isSuite: 0
     _type: NUnit.Framework.Internal.TestMethod
     _parentName: Tests_AltTester
@@ -84,13 +84,13 @@ MonoBehaviour:
     _foldOut: 0
     _testResultMessage: 
     _testStackTrace: 
-    _testDuration: 1.2037355
+    _testDuration: 0
     path: Assets/Editor/Tests/Tests_AltTester.cs
     _testSelectedCount: 0
-  - _selected: 1
+  - _selected: 0
     _testName: Tests_AltTester.TestCollectAllItems
     _testAssembly: Assembly-CSharp-Editor
-    _status: 1
+    _status: 0
     _isSuite: 0
     _type: NUnit.Framework.Internal.TestMethod
     _parentName: Tests_AltTester
@@ -98,13 +98,13 @@ MonoBehaviour:
     _foldOut: 0
     _testResultMessage: 
     _testStackTrace: 
-    _testDuration: 271.9784691
+    _testDuration: 0
     path: Assets/Editor/Tests/Tests_AltTester.cs
     _testSelectedCount: 0
-  - _selected: 1
+  - _selected: 0
     _testName: Tests_AltTester.TestCountNumberSameAsPickedupItems
     _testAssembly: Assembly-CSharp-Editor
-    _status: 1
+    _status: 0
     _isSuite: 0
     _type: NUnit.Framework.Internal.TestMethod
     _parentName: Tests_AltTester
@@ -112,13 +112,13 @@ MonoBehaviour:
     _foldOut: 0
     _testResultMessage: 
     _testStackTrace: 
-    _testDuration: 45.3680006
+    _testDuration: 0
     path: Assets/Editor/Tests/Tests_AltTester.cs
     _testSelectedCount: 0
-  - _selected: 1
+  - _selected: 0
     _testName: Tests_AltTester.TestDoubleClick
     _testAssembly: Assembly-CSharp-Editor
-    _status: 1
+    _status: 0
     _isSuite: 0
     _type: NUnit.Framework.Internal.TestMethod
     _parentName: Tests_AltTester
@@ -126,13 +126,13 @@ MonoBehaviour:
     _foldOut: 0
     _testResultMessage: 
     _testStackTrace: 
-    _testDuration: 1.2226895
+    _testDuration: 0
     path: Assets/Editor/Tests/Tests_AltTester.cs
     _testSelectedCount: 0
-  - _selected: 1
+  - _selected: 0
     _testName: Tests_AltTester.TestKeyDownAndKeyUpMouse0MovesScrollBar
     _testAssembly: Assembly-CSharp-Editor
-    _status: 1
+    _status: 0
     _isSuite: 0
     _type: NUnit.Framework.Internal.TestMethod
     _parentName: Tests_AltTester
@@ -140,13 +140,13 @@ MonoBehaviour:
     _foldOut: 0
     _testResultMessage: 
     _testStackTrace: 
-    _testDuration: 1.2937157
+    _testDuration: 0
     path: Assets/Editor/Tests/Tests_AltTester.cs
     _testSelectedCount: 0
-  - _selected: 1
+  - _selected: 0
     _testName: Tests_AltTester.TestMoveBallWithMoveMouse
     _testAssembly: Assembly-CSharp-Editor
-    _status: 1
+    _status: 0
     _isSuite: 0
     _type: NUnit.Framework.Internal.TestMethod
     _parentName: Tests_AltTester
@@ -154,13 +154,13 @@ MonoBehaviour:
     _foldOut: 0
     _testResultMessage: 
     _testStackTrace: 
-    _testDuration: 9.2598854
+    _testDuration: 0
     path: Assets/Editor/Tests/Tests_AltTester.cs
     _testSelectedCount: 0
-  - _selected: 1
+  - _selected: 0
     _testName: Tests_AltTester.TestMoveMouseOnScrollbar
     _testAssembly: Assembly-CSharp-Editor
-    _status: 1
+    _status: 0
     _isSuite: 0
     _type: NUnit.Framework.Internal.TestMethod
     _parentName: Tests_AltTester
@@ -168,13 +168,13 @@ MonoBehaviour:
     _foldOut: 0
     _testResultMessage: 
     _testStackTrace: 
-    _testDuration: 0.4228507
+    _testDuration: 0
     path: Assets/Editor/Tests/Tests_AltTester.cs
     _testSelectedCount: 0
-  - _selected: 1
+  - _selected: 0
     _testName: Tests_AltTester.TestPressKeyNearScrollBarMovesScrollBar
     _testAssembly: Assembly-CSharp-Editor
-    _status: 1
+    _status: 0
     _isSuite: 0
     _type: NUnit.Framework.Internal.TestMethod
     _parentName: Tests_AltTester
@@ -182,13 +182,13 @@ MonoBehaviour:
     _foldOut: 0
     _testResultMessage: 
     _testStackTrace: 
-    _testDuration: 1.2973499
+    _testDuration: 0
     path: Assets/Editor/Tests/Tests_AltTester.cs
     _testSelectedCount: 0
-  - _selected: 1
+  - _selected: 0
     _testName: Tests_AltTester.TestSameValueFourCountTextinDifferentWays
     _testAssembly: Assembly-CSharp-Editor
-    _status: 1
+    _status: 0
     _isSuite: 0
     _type: NUnit.Framework.Internal.TestMethod
     _parentName: Tests_AltTester
@@ -196,13 +196,13 @@ MonoBehaviour:
     _foldOut: 0
     _testResultMessage: 
     _testStackTrace: 
-    _testDuration: 11.4472947
+    _testDuration: 0
     path: Assets/Editor/Tests/Tests_AltTester.cs
     _testSelectedCount: 0
-  - _selected: 1
+  - _selected: 0
     _testName: Tests_AltTester.TestScrollOnScrollbar
     _testAssembly: Assembly-CSharp-Editor
-    _status: 1
+    _status: 0
     _isSuite: 0
     _type: NUnit.Framework.Internal.TestMethod
     _parentName: Tests_AltTester
@@ -210,13 +210,13 @@ MonoBehaviour:
     _foldOut: 0
     _testResultMessage: 
     _testStackTrace: 
-    _testDuration: 2.2331888
+    _testDuration: 0
     path: Assets/Editor/Tests/Tests_AltTester.cs
     _testSelectedCount: 0
-  - _selected: 1
+  - _selected: 0
     _testName: Tests_AltTester.TestSwipeOnScrollbar
     _testAssembly: Assembly-CSharp-Editor
-    _status: 1
+    _status: 0
     _isSuite: 0
     _type: NUnit.Framework.Internal.TestMethod
     _parentName: Tests_AltTester
@@ -224,13 +224,13 @@ MonoBehaviour:
     _foldOut: 0
     _testResultMessage: 
     _testStackTrace: 
-    _testDuration: 3.1825629
+    _testDuration: 0
     path: Assets/Editor/Tests/Tests_AltTester.cs
     _testSelectedCount: 0
-  - _selected: 1
+  - _selected: 0
     _testName: Tests_AltTester.TestTiltBall
     _testAssembly: Assembly-CSharp-Editor
-    _status: 1
+    _status: 0
     _isSuite: 0
     _type: NUnit.Framework.Internal.TestMethod
     _parentName: Tests_AltTester
@@ -238,7 +238,7 @@ MonoBehaviour:
     _foldOut: 0
     _testResultMessage: 
     _testStackTrace: 
-    _testDuration: 3.1463844
+    _testDuration: 0
     path: Assets/Editor/Tests/Tests_AltTester.cs
     _testSelectedCount: 0
   - _selected: 0
@@ -268,7 +268,7 @@ MonoBehaviour:
     _testStackTrace: 
     _testDuration: 0
     path: 
-    _testSelectedCount: 4
+    _testSelectedCount: 0
   - _selected: 0
     _testName: IntegrationTests.Integration_CanChangeInputBackendPlayerSettingInEditor
     _testAssembly: Unity.InputSystem.IntegrationTests
@@ -408,7 +408,7 @@ MonoBehaviour:
     _testStackTrace: 
     _testDuration: 0
     path: 
-    _testSelectedCount: 1
+    _testSelectedCount: 0
   - _selected: 0
     _testName: TestExample.Test
     _testAssembly: AltTester
@@ -468,7 +468,7 @@ MonoBehaviour:
   LatestDesktopVersion: 1.5.1.exe
   ShowDesktopPopUpInEditor: 0
   createXMLReport: 0
-  xMLFilePath: 
+  xMLFilePath: C:\GitProjects\FORK-RollABall-CSharp\EXAMPLES-NewInputSystem--RollABall-CSharp\RollABall\Reports
   ProxyPort: 13000
   ProxyHost: 127.0.0.1
   GameName: __default__

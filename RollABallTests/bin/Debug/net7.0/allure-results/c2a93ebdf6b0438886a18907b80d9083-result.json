@@ -1,0 +1,64 @@
+{
+  "uuid": "7011eac8-738b-4b30-b2d8-90b1d409b0d4-tr-0-1001",
+  "historyId": "RollABallTests.Tests_AltTester.TestMoveBallWithMoveMouse",
+  "fullName": "RollABallTests.Tests_AltTester.TestMoveBallWithMoveMouse",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ALTOM-PC68"
+    },
+    {
+      "name": "package",
+      "value": "RollABallTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestMoveBallWithMoveMouse"
+    },
+    {
+      "name": "testClass",
+      "value": "Tests_AltTester"
+    }
+  ],
+  "links": [],
+  "name": "TestMoveBallWithMoveMouse",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestMoveBallWithMoveMouse"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "TestMoveBallWithMoveMouse",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "739502ded0c54abdbca620c1af8959ba-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1681119091853,
+      "stop": 1681119101170
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1681119091853,
+  "stop": 1681119101170
+}

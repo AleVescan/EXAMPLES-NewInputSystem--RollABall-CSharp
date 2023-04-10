@@ -1,0 +1,24 @@
+{
+	"allure": {
+		"directory": "C:\\GitProjects\\FORK-RollABall-CSharp\\EXAMPLES-NewInputSystem--RollABall-CSharp\\RollABallTests\\bin\\Debug\\net7.0\\allure-results",
+		"links": [
+			"https://github.com/nunit/docs/issues?utf8=✓&q={issue}",
+			"https://example.org/{tms}",
+			"{link}"
+		],
+		"brokenTestData": [
+			"System.Exception"
+		]
+			},
+		"grouping": {
+			"suites": {
+			"parentSuite": "^parentSuite:?(.+)",
+			"suite": "^suite:?(.+)",
+			"subSuite": "^subSuite:?(.+)"
+			}
+		},
+		"labels": {
+			"owner": "^author:?(.+)",
+			"severity": "^(normal|blocker|critical|minor|trivial)"
+		}
+}

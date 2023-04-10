@@ -1,0 +1,64 @@
+{
+  "uuid": "57ac84d6-9511-4d5c-8101-61c79f733c8f-tr-0-1003",
+  "historyId": "RollABallTests.Tests_AltTester.TestMoveMouseOnScrollbar",
+  "fullName": "RollABallTests.Tests_AltTester.TestMoveMouseOnScrollbar",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ALTOM-PC68"
+    },
+    {
+      "name": "package",
+      "value": "RollABallTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestMoveMouseOnScrollbar"
+    },
+    {
+      "name": "testClass",
+      "value": "Tests_AltTester"
+    }
+  ],
+  "links": [],
+  "name": "TestMoveMouseOnScrollbar",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestMoveMouseOnScrollbar"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "TestMoveMouseOnScrollbar",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "73bf350a35ed4786852b4717a301fa4d-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1681119101180,
+      "stop": 1681119101615
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1681119101180,
+  "stop": 1681119101615
+}

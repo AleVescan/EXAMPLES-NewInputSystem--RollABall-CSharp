@@ -1,0 +1,46 @@
+{
+  "uuid": "ce9b2ec0-7924-4cad-a76e-c2811e44b1bc-tc-0-1000",
+  "name": "RollABallTests.Tests_AltTester.TestBallMovesOnPressKeys",
+  "children": [
+    "3d5718c2-1afd-49bd-84b1-2d2c8940740e-tr-0-1009"
+  ],
+  "befores": [
+    {
+      "name": "SetUp",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1681118770565,
+      "stop": 1681118770565
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "none",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "It's not possible to get status of OneTimeTearDown",
+        "trace": "See Allure.NUnit wiki"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1681118770566,
+      "stop": 1681118770566
+    }
+  ],
+  "links": [],
+  "start": 1681118758164,
+  "stop": 1681118770586
+}

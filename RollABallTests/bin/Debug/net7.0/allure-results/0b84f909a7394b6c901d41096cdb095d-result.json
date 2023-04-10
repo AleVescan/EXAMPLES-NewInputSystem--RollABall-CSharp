@@ -1,0 +1,64 @@
+{
+  "uuid": "3d5718c2-1afd-49bd-84b1-2d2c8940740e-tr-0-1009",
+  "historyId": "RollABallTests.Tests_AltTester.TestBallMovesOnPressKeys",
+  "fullName": "RollABallTests.Tests_AltTester.TestBallMovesOnPressKeys",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ALTOM-PC68"
+    },
+    {
+      "name": "package",
+      "value": "RollABallTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestBallMovesOnPressKeys"
+    },
+    {
+      "name": "testClass",
+      "value": "Tests_AltTester"
+    }
+  ],
+  "links": [],
+  "name": "TestBallMovesOnPressKeys",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestBallMovesOnPressKeys"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "TestBallMovesOnPressKeys",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "68994c3fa1ae4cfabfe854882afc8ff0-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1681118758165,
+      "stop": 1681118770568
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1681118758165,
+  "stop": 1681118770569
+}

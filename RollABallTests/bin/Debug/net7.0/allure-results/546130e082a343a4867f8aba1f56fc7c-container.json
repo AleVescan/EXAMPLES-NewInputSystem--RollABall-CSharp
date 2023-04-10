@@ -1,0 +1,46 @@
+{
+  "uuid": "b727a1e8-05a4-48c2-9906-7bd65d63cc60-tc-0-1000",
+  "name": "RollABallTests.Tests_AltTester.TestKeyDownAndKeyUpMouse0MovesScrollBar",
+  "children": [
+    "07e593d1-cd0c-4d53-81a8-4e2207999d9c-tr-0-1008"
+  ],
+  "befores": [
+    {
+      "name": "SetUp",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1681119091838,
+      "stop": 1681119091838
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "none",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "It's not possible to get status of OneTimeTearDown",
+        "trace": "See Allure.NUnit wiki"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1681119091838,
+      "stop": 1681119091838
+    }
+  ],
+  "links": [],
+  "start": 1681119090496,
+  "stop": 1681119091846
+}

@@ -1,0 +1,64 @@
+{
+  "uuid": "66962694-c8b4-409b-b35e-a82450f0d1b6-tr-0-1011",
+  "historyId": "RollABallTests.Tests_AltTester.TestDoubleClick",
+  "fullName": "RollABallTests.Tests_AltTester.TestDoubleClick",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ALTOM-PC68"
+    },
+    {
+      "name": "package",
+      "value": "RollABallTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestDoubleClick"
+    },
+    {
+      "name": "testClass",
+      "value": "Tests_AltTester"
+    }
+  ],
+  "links": [],
+  "name": "TestDoubleClick",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestDoubleClick"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "TestDoubleClick",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "672772a7a2664672935154022bad8d25-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1681119089250,
+      "stop": 1681119090479
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1681119089250,
+  "stop": 1681119090479
+}

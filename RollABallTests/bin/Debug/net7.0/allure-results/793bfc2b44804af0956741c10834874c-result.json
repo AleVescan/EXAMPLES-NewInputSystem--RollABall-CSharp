@@ -1,0 +1,64 @@
+{
+  "uuid": "ada75f56-ea77-49a5-aa3f-86031a2b39c4-tr-0-1007",
+  "historyId": "RollABallTests.Tests_AltTester.TestPressKeyNearScrollBarMovesScrollBar",
+  "fullName": "RollABallTests.Tests_AltTester.TestPressKeyNearScrollBarMovesScrollBar",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ALTOM-PC68"
+    },
+    {
+      "name": "package",
+      "value": "RollABallTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestPressKeyNearScrollBarMovesScrollBar"
+    },
+    {
+      "name": "testClass",
+      "value": "Tests_AltTester"
+    }
+  ],
+  "links": [],
+  "name": "TestPressKeyNearScrollBarMovesScrollBar",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestPressKeyNearScrollBarMovesScrollBar"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "TestPressKeyNearScrollBarMovesScrollBar",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "00aed84cc35344f1a22d747db228620a-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1681119101623,
+      "stop": 1681119102915
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1681119101623,
+  "stop": 1681119102915
+}

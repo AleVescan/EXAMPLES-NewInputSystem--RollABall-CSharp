@@ -1,0 +1,64 @@
+{
+  "uuid": "0e27b8a7-1bf2-4427-87ee-5513ac9fd1b1-tr-0-1014",
+  "historyId": "RollABallTests.Tests_AltTester.TestCollectAllItems",
+  "fullName": "RollABallTests.Tests_AltTester.TestCollectAllItems",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ALTOM-PC68"
+    },
+    {
+      "name": "package",
+      "value": "RollABallTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestCollectAllItems"
+    },
+    {
+      "name": "testClass",
+      "value": "Tests_AltTester"
+    }
+  ],
+  "links": [],
+  "name": "TestCollectAllItems",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestCollectAllItems"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "TestCollectAllItems",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "31c6bc8ec3464924850e2ea4b37e0f69-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1681118771993,
+      "stop": 1681119043960
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1681118771993,
+  "stop": 1681119043960
+}

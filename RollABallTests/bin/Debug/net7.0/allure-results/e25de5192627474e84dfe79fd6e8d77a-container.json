@@ -1,0 +1,46 @@
+{
+  "uuid": "12d16914-44ec-423e-a9fb-1d23dbee6945-tc-0-1000",
+  "name": "RollABallTests.Tests_AltTester.TestBeginMoveEndTouchMovesScrollbar",
+  "children": [
+    "4f355fb4-1083-484f-a09e-3a7946d905a5-tr-0-1006"
+  ],
+  "befores": [
+    {
+      "name": "SetUp",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1681118770781,
+      "stop": 1681118770781
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "none",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "It's not possible to get status of OneTimeTearDown",
+        "trace": "See Allure.NUnit wiki"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1681118770781,
+      "stop": 1681118770781
+    }
+  ],
+  "links": [],
+  "start": 1681118770596,
+  "stop": 1681118770787
+}

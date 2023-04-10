@@ -1,0 +1,10 @@
+global using NUnit.Framework;
+global using System.Threading;
+global using Altom.AltDriver;
+global using NUnit.Framework;
+global using UnityEngine;
+global using System;
+global using Allure;
+global using NUnit.Allure.Core;
+global using Allure.Commons;
+global using NUnit.Allure.Attributes;
